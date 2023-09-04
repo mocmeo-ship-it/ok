@@ -198,7 +198,7 @@ def rcone():
 def headers_shit():
 	ahahaa=ahaha()
 	randuas=randua()
-	rcones=recone()
+	rcones=rcone()
 	langus=langu()
 	xqrds=xqrd()
 	hencs=henc()
