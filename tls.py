@@ -200,7 +200,7 @@ def headers_shit():
 	randuas=randua()
 	rcones=rcone()
 	langus=langu()
-	xqrds=xrqd()
+	xrqds=xrqd()
 	hencs=henc()
 	ipfds=ipfd()
 	xht=random.choice(['http', 'https',])
