@@ -248,8 +248,8 @@ url=input("url: ")
 #ciphers = 
 tls_params = 1
 timeout = 6
-num_threads = ("thread: ")
+num_threads = int(input("thread: "))
 attacker = Attacker(attacker_file_path)
-timeinh=input("time: ")
+timeinh=int(input("time: "))
 timer = Timer(timeinh)
 timer.run(lambda: attacker.reqProxy(url, headers=headers_shit(), ciphers=cp(), tls_params=tls_params, timeout=timeout, num_threads=num_threads))
