@@ -1,7 +1,8 @@
 import threading
 import requests
 import time
-from itertools import cycle
+from itertools import cycle 
+import random 
 class Attacker:
 	def __init__(self, file_path):
 		self.proxies = self.read_attacker(file_path)
