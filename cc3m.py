@@ -284,7 +284,7 @@ attacker = Attacker(file_path=at)
 # argument_2 = sys.argv[2]
 #print(argument_2)
 #ciphers = 
-num_thread= int(input("thread: "))
+num_threads = int(input("thread: "))
 timeinh= int(input("time: ")) # sys.argv[3] # int(input("time: "))
 timer = Timer(timeinh)
 print("script by canhcutkhongbay")
