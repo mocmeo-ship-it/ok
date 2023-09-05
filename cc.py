@@ -254,8 +254,7 @@ import sys
 #ciphers = 
 tls_params = 1
 timeout = 12
-thrd = int(input("thread: "))
-num_thread= thrd*1
+num_thread = int(input("thread: "))
 attacker = Attacker(attacker_file_path)
 timeinh= int(input("time: "))# sys.argv[3] # int(input("time: "))
 timer = Timer(timeinh)
