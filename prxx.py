@@ -63,4 +63,4 @@ valid_proxy_file = input("Enter valid proxy file name: ")
 # Ghi danh sách các proxy hợp lệ và tốc độ vào file
 with open(valid_proxy_file, 'w') as f:
     for proxy, speed in valid_proxies:
-        f.write(proxy'\n')
+        f.write(proxy+'\n')
